@@ -1,0 +1,64 @@
+name: Your name
+email: your.email@provider.com
+phone: your phone
+summary:
+  Software Engineer with 4+ years of experience building web, desktop and cli programs
+  handling api development, database modeling, server administration and frontend too, I love the unix ecosystem, moving on servers and terminals is
+  second nature to me, Im good at automation, regular expressions and
+  text processing, I love learning and teaching too.
+experience:
+  - name: P1
+    role: Fullstack Developer
+    dates:
+      2021 - present
+    desc:
+      description
+    tasks:
+      -
+  - name: P2
+    role: Fullstack Developer
+    dates:
+      2021 - 2022
+    desc:
+      description
+    tasks:
+      -
+
+projects:
+  - name: ezv(ez|cv)
+    desc:
+      A tool to easily build cvs based on a yml file,
+      it uses groff, bash, yq, jq and Make and it is indeed
+      the tool I used to make this one.
+  - name: python-pdf-report-server
+    desc:
+      A thin wrapper over weasyprint using flask to launch a server that uses
+      templates to respond with pdf documents.
+  - name: good-pomodoro
+    desc:
+      A pomodoro cli application focused on purity that uses a stack of events
+      instead of timers.
+  - name: fennel-macros
+    desc:
+      A collection of macros for a lisp like language that runs on top of lua.
+  - name: kakoune-plugins
+    desc:
+      Ive built a bunch of plugins for my favorite text editor, ranging from text
+      encryption utilities using openssl, a wallpaper picker, a recency based buffer
+      list, and a scratch implementation of a lsp like server which issues kakoune
+      commands as a scripting layer to use the raku(formerly perl6) programming
+      language for scripting
+
+
+skills:
+  - name: frameworks
+    desc:
+      express, flask, react
+  - name: languages
+    desc:
+      English, Typescript, Python, Bash, Clojure, Delphi, Perl, Raku, SQL
+  - name: tools
+    desc: linux, git, docker, gnu coreutils
+  - name: concepts
+    desc:
+      regular expressions, markup languages, database modeling
