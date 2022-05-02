@@ -1,0 +1,10 @@
+=ecv
+
+Easily build your resume with a yml file, you will need
+groff, make, jq and yq to be able to run it, right now
+it is a very simple make target that will read the db.yml
+file, your cv.ms file and will produce a cv.pdf file, feel
+free to use it, tell me about any issue or wathever.
+
+special thanks to @Bugswriter
+as I used a template he made.
